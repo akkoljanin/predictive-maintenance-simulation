@@ -1,0 +1,4 @@
+MTBF (min),A - PLC/SCADA OEE (%),B - IIoT monitoring OEE (%),C - AI predictive maintenance OEE (%)
+360,76.29,87.17,94.03
+480,80.28,89.49,95.19
+600,83.8,91.38,96.0

@@ -1,0 +1,109 @@
+{
+  "baseline_results": {
+    "A - PLC/SCADA": {
+      "availability": 0.819691121004751,
+      "performance": 0.9992856616164916,
+      "quality": 0.9801426819749168,
+      "oee": 0.8028419133606884,
+      "unplanned_downtime_pct": 18.03088789952489,
+      "planned_downtime_pct": 0.0,
+      "n_failures": 73.1,
+      "n_predicted": 0,
+      "good_parts": 69366.23333333334,
+      "bad_parts": 1405.2666666666667,
+      "total_parts": 70771.5,
+      "mttr_observed": 106.61178648330166
+    },
+    "B - IIoT monitoring": {
+      "availability": 0.9136971478245185,
+      "performance": 0.9993322831540018,
+      "quality": 0.9800608067368374,
+      "oee": 0.8948813714953057,
+      "unplanned_downtime_pct": 8.630285217548147,
+      "planned_downtime_pct": 0.0,
+      "n_failures": 83,
+      "n_predicted": 0,
+      "good_parts": 77318.46666666666,
+      "bad_parts": 1573.1333333333334,
+      "total_parts": 78891.6,
+      "mttr_observed": 44.97142469757625
+    },
+    "C - AI predictive maintenance": {
+      "availability": 0.9639624405355354,
+      "performance": 0.9994572408450442,
+      "quality": 0.9880133762667541,
+      "oee": 0.9518929371822208,
+      "unplanned_downtime_pct": 3.540597376252293,
+      "planned_downtime_pct": 1.7476851851851851,
+      "n_failures": 84.16666666666667,
+      "n_predicted": 50.333333333333336,
+      "good_parts": 80807.06666666667,
+      "bad_parts": 980.2666666666667,
+      "total_parts": 81787.33333333333,
+      "mttr_observed": 45.090703409440046
+    }
+  },
+  "parameter_sensitivity": {
+    "A_PLC_SCADA": {
+      "detect_mean": {
+        "low": 83.09011583427281,
+        "baseline": 80.28419133606884,
+        "high": 78.74439627897283
+      },
+      "repair_mean": {
+        "low": 82.07980448966126,
+        "baseline": 80.28419133606884,
+        "high": 76.69192405730885
+      }
+    },
+    "B_IIoT": {
+      "detect_mean": {
+        "low": 90.04439698862042,
+        "baseline": 89.48813714953057,
+        "high": 88.78293859527025
+      },
+      "repair_mean": {
+        "low": 92.23176433845708,
+        "baseline": 89.48813714953057,
+        "high": 86.9840271515858
+      }
+    },
+    "C_AI_PdM": {
+      "predict_frac": {
+        "low": 93.62168798469567,
+        "baseline": 95.18929371822207,
+        "high": 97.01942129849932
+      },
+      "sched_maint_time": {
+        "low": 95.27932719969961,
+        "baseline": 95.18929371822207,
+        "high": 94.84481403856343
+      },
+      "repair_mean": {
+        "low": 96.39123307167226,
+        "baseline": 95.18929371822207,
+        "high": 94.15325613952386
+      }
+    }
+  },
+  "mtbf_sensitivity": {
+    "360": {
+      "MTBF (min)": 360,
+      "A - PLC/SCADA OEE (%)": 76.29,
+      "B - IIoT monitoring OEE (%)": 87.17,
+      "C - AI predictive maintenance OEE (%)": 94.03
+    },
+    "480": {
+      "MTBF (min)": 480,
+      "A - PLC/SCADA OEE (%)": 80.28,
+      "B - IIoT monitoring OEE (%)": 89.49,
+      "C - AI predictive maintenance OEE (%)": 95.19
+    },
+    "600": {
+      "MTBF (min)": 600,
+      "A - PLC/SCADA OEE (%)": 83.8,
+      "B - IIoT monitoring OEE (%)": 91.38,
+      "C - AI predictive maintenance OEE (%)": 96.0
+    }
+  }
+}

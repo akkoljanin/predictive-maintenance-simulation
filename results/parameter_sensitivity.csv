@@ -1,0 +1,8 @@
+Scenario,Parameter,OEE low (%),OEE baseline (%),OEE high (%)
+A - PLC/SCADA,detect_mean,83.09,80.28,78.74
+A - PLC/SCADA,repair_mean,82.08,80.28,76.69
+B - IIoT monitoring,detect_mean,90.04,89.49,88.78
+B - IIoT monitoring,repair_mean,92.23,89.49,86.98
+C - AI predictive maintenance,predict_frac,93.62,95.19,97.02
+C - AI predictive maintenance,sched_maint_time,95.28,95.19,94.84
+C - AI predictive maintenance,repair_mean,96.39,95.19,94.15

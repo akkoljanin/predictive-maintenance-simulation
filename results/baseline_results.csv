@@ -1,0 +1,4 @@
+Scenario,Availability (%),Performance (%),Quality (%),OEE (%),Unplanned downtime (%),Failures,Predicted failures
+A - PLC/SCADA,81.97,99.93,98.01,80.28,18.03,73.1,0.0
+B - IIoT monitoring,91.37,99.93,98.01,89.49,8.63,83.0,0.0
+C - AI predictive maintenance,96.4,99.95,98.8,95.19,3.54,84.2,50.3
